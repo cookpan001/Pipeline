@@ -1,6 +1,6 @@
 <?php
 
-namespace cookpan001\Proxy\Reply;
+namespace cookpan001\Pipeline\Reply;
 
 class Again
 {

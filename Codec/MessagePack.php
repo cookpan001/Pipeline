@@ -1,8 +1,8 @@
 <?php
 
-namespace cookpan001\Proxy\Codec;
+namespace cookpan001\Pipeline\Codec;
 
-use cookpan001\Proxy\Codec;
+use cookpan001\Pipeline\Codec;
 
 class MessagePack implements Codec
 {

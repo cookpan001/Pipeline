@@ -1,11 +1,9 @@
 <?php
 
-define('PROXY_ROOT', dirname(__FILE__));
-
 class MyAutoload
 {
     public $classMap = array(
-        'cookpan001\\Proxy' => array(PROXY_ROOT),
+        'cookpan001\\Pipeline' => array(__DIR__),
     );
     
     public function __autoload($class_name)

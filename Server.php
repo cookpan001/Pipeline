@@ -1,6 +1,6 @@
 <?php
 
-namespace cookpan001\Proxy;
+namespace cookpan001\Pipeline;
 
 class Server
 {
@@ -27,7 +27,7 @@ class Server
     public $interval = 900;
     public $path = './dump.file';
     public $logPath = __DIR__ . DIRECTORY_SEPARATOR;
-    public $service = 'proxy';
+    public $service = 'Pipeline';
     public $terminate = 0;
     
     public $serverWatcher = null;

@@ -1,6 +1,6 @@
 <?php
 
-namespace cookpan001\Proxy;
+namespace cookpan001\Pipeline;
 
 class Daemon
 {
